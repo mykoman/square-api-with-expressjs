@@ -1,0 +1,27 @@
+{
+  "name": "square-payment-express",
+  "version": "1.0.0",
+  "description": "Implement square API with express js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "square",
+    "API",
+    "square-api-payment",
+    "square-api-express"
+  ],
+  "author": "Michael Ogbuma",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
